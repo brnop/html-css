@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('./imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /*melhor maneira para preencher uma imagem de fundo sem distorção, com alguns cortes dependendo do tamanho da janela*/
+            background-size: cover; --->> melhor maneira para preencher uma imagem de fundo sem distorção, com alguns cortes dependendo do tamanho da janela
+            background-attachment: fixed; */
+            
+            /*Shorthand - backgroud
+            color > image > position > repeat > [size] "size nao funciona dentro da shorthand"> attachment*/
+            background: black url('./imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +36,27 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
         Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
         Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+            Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+            Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                    Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                    Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                        Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                        Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                            Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                            Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                                Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                                Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, in nobis eius ad molestiae voluptatibus. Nisi nulla, dignissimos dolorem excepturi accusamus illum necessitatibus ipsam soluta esse rem, quasi voluptate?
+                                    Libero vel ad, alias velit sed in aliquid recusandae pariatur eius a non praesentium eligendi? Earum provident reprehenderit et repellat libero cumque facere, dignissimos doloribus tempora blanditiis omnis, ipsam sunt?
+                                    Nulla exercitationem ducimus voluptatum, excepturi id officia quia dolore nisi ut non itaque expedita sed nemo. Perferendis, eligendi libero quam iure temporibus voluptatibus fugit minima laboriosam repellat veniam hic accusantium.</p>
     </main>
     
 </body>
